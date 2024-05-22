@@ -63,7 +63,7 @@ builder.Services.AddAuthentication(options =>
     // Define the authentication scheme
     .AddJwtBearer("MyDefault", options =>
     {
-        var keyFromConfig = builder.Configuration.GetValue<string>(AppSettings.SecretKey)!;
+        var keyFromConfig = builder.Configuration.GetValue<string>(Ecommerce_API.APIs.Constant.AppSettings.SecretKey)!;
         var keyInBytes = Encoding.ASCII.GetBytes(keyFromConfig);
         var key = new SymmetricSecurityKey(keyInBytes);
 

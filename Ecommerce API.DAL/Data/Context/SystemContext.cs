@@ -62,9 +62,9 @@ namespace Ecommerce_API.DAL.Data.Context
 
         var products = new List<Product>
         {
-          new Product {ProductId= 1,ProductName= "Product1",Description ="good productdetail about Product1",CategoryId=1,Price=5000,Color="black"},
-          new Product {ProductId= 2,ProductName= "Product2",Description ="good productdetail about Product2",CategoryId=3,Price=90000,Color="White"},
-          new Product {ProductId= 3,ProductName= "Product3",Description ="good productdetail about Product3",CategoryId=2,Price=80000,Color="blue"}
+          new Product {ProductId= 1,ProductName= "Productone",Description ="good productdetail about Product1",CategoryId=1,Price=5000,Color="black"},
+          new Product {ProductId= 2,ProductName= "Producttwo",Description ="good productdetail about Product2",CategoryId=3,Price=90000,Color="White"},
+          new Product {ProductId= 3,ProductName= "Productthree",Description ="good productdetail about Product3",CategoryId=2,Price=80000,Color="blue"}
         };
         #endregion
         #region Seeding CategorieBlacks

@@ -16,6 +16,9 @@ namespace Ecommerce_API.DAL;
         public UnitOfWork(SystemContext DbContext, IProductsRepo productsRepos, ICartsRepo cartsRepo, IOrdersRepo ordersRepo)
         {
             _Context = DbContext;
+            productRepositary = productsRepos;
+            cartRepository = cartsRepo;
+             orderRepositary = ordersRepo;
         }
         public IProductsRepo productRepositary { get; }
         public ICartsRepo cartRepository { get; }

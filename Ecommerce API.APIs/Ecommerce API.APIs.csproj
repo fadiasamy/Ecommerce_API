@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <!--<InvariantGlobalization>true</InvariantGlobalization>-->
     <RootNamespace>Ecommerce_API.APIs</RootNamespace>
+    <UserSecretsId>7063b3ac-235f-4d1a-a74e-a749ddfe07f4</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
