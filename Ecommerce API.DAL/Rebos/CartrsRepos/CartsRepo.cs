@@ -34,6 +34,7 @@ namespace Ecommerce_API.DAL.Repos.CartrsRepos
                     CartItems = new List<CartItem>()
                 };
                 _Context.Set<Cart>().Add(cart);
+                _Context.SaveChanges();
             }
 
             // Create a new cart item based on the provided productId and quantity
